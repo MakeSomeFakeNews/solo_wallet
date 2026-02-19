@@ -5,8 +5,8 @@ import '../../routes/app_routes.dart';
 
 class SplashController extends GetxController {
   @override
-  void onInit() {
-    super.onInit();
+  void onReady() {
+    super.onReady();
     _navigate();
   }
 
